@@ -14,7 +14,7 @@ html, body{
     top: -10px;*/
 }
 
-.count-down-2021{
+.date{
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
@@ -22,7 +22,37 @@ html, body{
     top: 200px;
 }
 
-.count-down-2021::selection{
+.count-down-2021-days::selection, .count-down-2021-hours::selection, .count-down-2021-minutes::selection, .count-down-2021-seconds::selection{
     color: white;
     background-color: white;
+}
+/*.count-down-2021-hours::selection{
+    color: white;
+    background-color: white;
+}
+.count-down-2021-minutes::selection{
+    color: white;
+    background-color: white;
+}
+.count-down-2021-seconds::selection{
+    color: white;
+    background-color: white;
+}*/
+
+@media only screen and (max-width: 700px) and (min-width: 200px){
+    .date{
+        display: inline-block;
+    }
+    .count-down-2021-days{
+        display: inline-block;
+    }
+    .count-down-2021-hours{
+        display: inline-block;
+    }
+    .count-down-2021-minutes{
+        display: inline-block;
+    }
+    .count-down-2021-seconds{
+        display: inline-block;
+    }
 }
