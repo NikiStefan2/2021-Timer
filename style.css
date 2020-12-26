@@ -1,0 +1,28 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #424242;
+    text-align: center;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /*left: -10px;
+    top: -10px;*/
+}
+
+.count-down-2021{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+}
+
+.count-down-2021::selection{
+    color: white;
+    background-color: white;
+}
