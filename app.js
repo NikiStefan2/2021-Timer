@@ -21,4 +21,20 @@ let n = setInterval(function () {
         clearInterval(n);
         document.getElementsByClassName("count-down-2021")[0].innerHTML = "An nou fericit!!!";
     }
+
+    if(days === 0){
+        document.getElementsByClassName("count-down-2021-days")[0].innerHTML = "";
+    }
+    if(ore === 0){
+        document.getElementsByClassName("count-down-2021-hours")[0].innerHTML = "";
+    }
+    if(minute === 0){
+        document.getElementsByClassName("count-down-2021-minutes")[0].innerHTML = "";
+    }
+    if(secunde === 0){
+        document.getElementsByClassName("count-down-2021-seconds")[0].innerHTML = "";
+    }
+        //days.innerHTML = " ";
+        document.getElementsByClassName("count-down-2021-days")[0].innerHTML = "";
+    //}
 }, 1000);
